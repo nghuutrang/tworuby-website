@@ -67,16 +67,102 @@
           <div class="col-lg-10">
             <h1 class="fw-bold mb-4">Privacy Policy</h1>
             <p class="mb-4">At TwoRuby, we develop a variety of mobile applications, ranging from health and utility
-              tools to entertainment apps. Because our apps have different features, our data practices vary depending
-              on which app you are using. This Privacy Policy explains how we collect, use, and protect your information
-              across all TwoRuby applications.</p>
+              tools to a grade book for teachers. Because these apps do very different things, <strong>our data
+                practices differ per app</strong>. This Privacy Policy explains what is common to all of them, and then
+              what applies to each.</p>
 
-            <h3 class="fw-bold mt-5">1. General Data Collection (Applies to all apps)</h3>
-            <p>Across our portfolio, we use analytics tools (such as Firebase Analytics) to understand how our apps are
-              used (e.g., screen views, crash reports). This data is collected using anonymous identifiers and is used
-              strictly to improve app performance and user experience.</p>
+            <h3 class="fw-bold mt-5">1. What applies to all of our apps</h3>
+            <ul>
+              <li class="mb-2"><strong>Payments:</strong> Subscriptions are securely handled by Apple (App Store) or
+                Google Play. We use RevenueCat to validate purchase history. We never see or store your credit card
+                details.</li>
+              <li class="mb-2"><strong>Auto-Renewal:</strong> Subscriptions automatically renew unless auto-renew is
+                turned off at least 24 hours before the end of the current billing period.</li>
+              <li class="mb-2"><strong>No sale of personal data:</strong> We never sell your personal data, and we never
+                use it to build advertising profiles.</li>
+            </ul>
+            <p>Everything else — whether an app signs you in, uses analytics, or shows ads — depends on which app you
+              are using. The table below summarises it, and the sections after that give the detail.</p>
 
-            <h3 class="fw-bold mt-4">2. Premium & Health Applications (e.g., Plant30: Gut Health Tracker)</h3>
+            <h3 class="fw-bold mt-4">2. Which app collects what</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered align-middle">
+                <thead>
+                  <tr>
+                    <th scope="col">App</th>
+                    <th scope="col">Sign-in</th>
+                    <th scope="col">Holds data about other people</th>
+                    <th scope="col">Analytics</th>
+                    <th scope="col">Ads</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Gradely</strong> (grade book for teachers)</td>
+                    <td>Google or Apple, required for cloud features</td>
+                    <td><strong>Yes — pupil records</strong></td>
+                    <td>No</td>
+                    <td>No</td>
+                  </tr>
+                  <tr>
+                    <td>Plant30: Gut Health Tracker</td>
+                    <td>Anonymous only</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                  </tr>
+                  <tr>
+                    <td>Our free, ad-supported apps</td>
+                    <td>Anonymous only</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3 class="fw-bold mt-4">3. Gradely — grade book for teachers</h3>
+            <p>Gradely is a professional tool <strong>used by teachers</strong>. Children do not use it and do not have
+              accounts. It does, however, hold records about them, so this section is specific.</p>
+            <ul>
+              <li class="mb-2"><strong>What a teacher records, and why:</strong> a pupil's name, and optionally a
+                student ID, a parent phone number and a date of birth, along with grades, attendance and written
+                comments. We process this on the basis of <em>legitimate interests</em> — running a class and keeping
+                parents informed, which is the ordinary purpose of a grade book. The teacher decides what to record.
+                TwoRuby is the data controller for the storage and sharing described here, and is the contact for any
+                request (see section 8).</li>
+              <li class="mb-2"><strong>Offline by default:</strong> everything stays on the teacher's device unless they
+                explicitly choose to publish a class to the parent portal.</li>
+              <li class="mb-2"><strong>Never leaves the device, for any class:</strong> the tuition-status flag, the
+                teacher's private note about a pupil, and the pupil's recorded mood.</li>
+              <li class="mb-2"><strong>Not shared with parents, even for a published class:</strong> the student ID and
+                the parent phone number.</li>
+              <li class="mb-2"><strong>Shared with that pupil's parent, for a published class:</strong> the pupil's
+                name, the class name and subject, grades, per-term averages, attendance and missing-homework counts, and
+                the teacher's comments.</li>
+              <li class="mb-2"><strong>Teacher account:</strong> cloud features require signing in with Google or Apple.
+                We receive the teacher's email address and basic profile from that provider, used only to identify their
+                own data.</li>
+              <li class="mb-2"><strong>How parents see the data:</strong> each pupil has a private link containing a
+                secret code, which the teacher sends to that pupil's parent. Anyone holding the link can view
+                <strong>that one pupil's record from that one teacher</strong> and nothing else. A teacher can revoke a
+                link at any time, which stops the old one working immediately. Parents are not asked to create an
+                account, and we collect no personal data from them through the portal.
+              </li>
+              <li class="mb-2"><strong>Comments are visible to parents:</strong> the comments a teacher writes alongside
+                grades and daily records are shown to that pupil's parent. The app states this next to each field as it
+                is typed. The private note field, which never leaves the device, is for anything not meant for
+                parents.</li>
+              <li class="mb-2"><strong>Cloud backup (paid feature):</strong> teachers on a paid plan can back up to our
+                cloud. A backup contains their classes, pupils (including student ID, parent phone and date of birth),
+                grades and records. It does <strong>not</strong> contain tuition status or private notes. Only that
+                teacher can read their own backup.</li>
+              <li class="mb-2"><strong>No analytics, no ads, no tracking:</strong> Gradely contains no analytics, no
+                crash reporting, no advertising and no tracking of any kind.</li>
+            </ul>
+
+            <h3 class="fw-bold mt-4">4. Premium &amp; Health Applications (e.g., Plant30: Gut Health Tracker)</h3>
             <p>For applications focused on personal health, utility, or those operating on a premium subscription model,
               we enforce strict privacy boundaries:</p>
             <ul>
@@ -84,17 +170,15 @@
                 third-party advertisements (such as
                 Google AdMob) and do not use advertising identifiers (like IDFA) to track you across other apps or
                 websites.</li>
-              <li class="mb-2"><strong>Auto-Renewal:</strong> Subscriptions automatically renew unless auto-renew is
-                turned off at least 24 hours before the end of the current billing period.</li>
               <li class="mb-2"><strong>Anonymous Authentication:</strong> These apps utilize anonymous authentication.
                 We do not require your real name,
                 email, or phone number. Your app data (like tracking streaks) is linked only to a random, anonymous User
                 ID.</li>
-              <li class="mb-2"><strong>Subscriptions:</strong> Payments are securely handled by Apple (App Store) or
-                Google Play. We use RevenueCat to
-                validate purchase history using your anonymous ID. We never see or store your credit card details.</li>
+              <li class="mb-2"><strong>Analytics:</strong> These apps use analytics tools (such as Firebase Analytics)
+                to understand how they are used — for example screen views and crash reports. This is collected using
+                anonymous identifiers and is used strictly to improve performance and user experience.</li>
             </ul>
-            <h3 class="fw-bold mt-4">3. Ad-Supported Applications</h3>
+            <h3 class="fw-bold mt-4">5. Ad-Supported Applications</h3>
             <p>Some of our other free applications rely on advertising to remain free for users. For these specific
               ad-supported apps:</p>
             <ul>
@@ -115,25 +199,60 @@
             <p>You can opt-out of personalized advertising by visiting your device settings (e.g., "Limit Ad Tracking"
               on iOS or "Opt out of Ads Personalization" on Android).</p>
 
-            <h3 class="fw-bold mt-4">4. Data Deletion and Rights</h3>
-            <p>You have the right to request the deletion of your data.</p>
+            <h3 class="fw-bold mt-4">6. Where data is stored</h3>
+            <p>Where our apps store data in the cloud, it is held on Google Cloud infrastructure (Firebase) and
+              encrypted in transit and at rest. Data may be processed in the region where our Firebase project is
+              hosted, which may be outside your country. We rely on Google Cloud's standard contractual protections for
+              such transfers.</p>
 
+            <h3 class="fw-bold mt-4">7. How long we keep your data</h3>
+            <p>We keep data for as long as you keep it — we do not retain copies after you delete it.</p>
+            <ul>
+              <li class="mb-2"><strong>Gradely:</strong> published pupil records remain until the teacher deletes the
+                class, revokes the pupil's link, or deletes their account. Cloud backups remain until the teacher
+                deletes them or their account. Data on the device remains until the teacher deletes it or removes the
+                app.</li>
+              <li class="mb-2"><strong>Our anonymous apps:</strong> data remains until you use the in-app deletion
+                feature or uninstall the app.</li>
+            </ul>
+
+            <h3 class="fw-bold mt-4">8. Data Deletion and Your Rights</h3>
+            <p>Depending on where you live, you may have rights of access, correction, deletion, portability and
+              objection.</p>
             <ul>
               <li class="mb-2">For our anonymous apps (like Plant30), you can delete your data by using the in-app
-                deletion feature or by
-                uninstalling the app.</li>
-              <li class="mb-2">For other apps, or if you have specific data requests (including CCPA or GDPR inquiries),
-                please contact
-                us at the email below.</li>
+                deletion feature or by uninstalling the app.</li>
+              <li class="mb-2"><strong>Teachers using Gradely</strong> can delete a class, revoke a pupil's link, or
+                delete their entire account from within the app — which removes everything published and wipes local
+                data. Instructions are also available at <a href="https://gradely.tworuby.com/delete-account.html"
+                  target="_blank">gradely.tworuby.com/delete-account.html</a>.</li>
+              <li class="mb-2"><strong>Parents and guardians</strong> should normally contact their child's teacher, who
+                decides what is recorded and can correct or remove it. You may also contact us at the address below and
+                we will respond within 30 days — please tell us which app, and for a pupil record, the teacher or school
+                concerned, so that we can locate it.</li>
+              <li class="mb-2">For any other request, including CCPA or GDPR inquiries, please contact us at the email
+                below.</li>
             </ul>
-            <h3 class="fw-bold mt-4">5. Data Protection</h3>
-            <p>We implement industry-standard security measures to maintain the safety of your data. However, no
-              electronic storage method is 100% secure..</p>
 
-            <h3 class="fw-bold mt-4">6. Contact Us</h3>
+            <h3 class="fw-bold mt-4">9. Children</h3>
+            <p>None of our apps are directed at children, and none are listed in a children's app category.</p>
+            <p>Gradely is designed for and used by <strong>teachers</strong>. It collects nothing directly from a child;
+              records about pupils are entered by their teacher in a professional capacity. If a parent or guardian
+              would like a child's record corrected or removed, please contact the teacher, or us at the address
+              below.</p>
+
+            <h3 class="fw-bold mt-4">10. Data Protection</h3>
+            <p>We implement industry-standard security measures to maintain the safety of your data. However, no
+              electronic storage method is 100% secure.</p>
+
+            <h3 class="fw-bold mt-4">11. Changes to this Policy</h3>
+            <p>We update this page whenever our apps change how they handle data. The date below shows the last
+              revision.</p>
+
+            <h3 class="fw-bold mt-4">12. Contact Us</h3>
             <p>If you have any questions regarding this Privacy Policy, please contact us at <a
                 href="mailto:tworubystudio@gmail.com">tworubystudio@gmail.com</a>.</p>
-            <p class="mt-5 text-muted">Last updated: May 14, 2026</p>
+            <p class="mt-5 text-muted">Last updated: July 19, 2026</p>
           </div>
         </div>
       </div>
